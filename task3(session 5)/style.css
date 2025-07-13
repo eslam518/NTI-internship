@@ -1,0 +1,981 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+/* header */
+
+.header{
+    background-image: url(images/image1.png);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    height: 978px;
+    height: fit-content;
+    padding-bottom: 60px;
+}
+
+.header .navbar{
+    display: flex;
+    justify-content: space-evenly;
+    align-items:start;
+    border-bottom: solid 1px white;
+    height: 80px;
+}
+
+.header .navbar div{
+    width: 30%;
+    display: flex;
+    justify-content: space-evenly;
+    height: 100%;
+    align-items: center;
+}
+
+.header .navbar div span{
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.header .navbar div button{
+    width: 28%;
+    height: 51%;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.header .navbar div button:nth-child(1){
+    background-color: #2DA884;
+    color: white;
+}
+
+.header .navbar div button:nth-child(2){
+    color: #2DA884;
+}
+
+.header .navbar h1{
+    font-size: 45px;
+    font-weight: 500;
+}
+
+.header .navbar i{
+    font-size: 11px;
+    padding-left: 10px;
+}
+
+.header .headercontent *{
+    margin: 0 auto;
+}
+
+.header .headercontent h1{
+    font-size: 100px;
+    font-weight: bold;
+    width: 50%;
+    margin: 20px auto;
+}
+
+.header .headercontent p{
+    font-size: 13px;
+    width: 44%;
+}
+
+.header .headercontent .btns{
+    margin-top: 50px;
+}
+
+.header .headercontent .btns button{
+    width: 11%;
+    padding: 20px;
+    border: none;
+    border-radius: 30px;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.header .headercontent .btns button:nth-child(1){
+    margin-right: 30px;
+    background-color: #2DA884;
+    color: white;
+}
+
+.header .headercontent .btns button:nth-child(2){
+    color: #2DA884;
+}
+
+.header .headercontent .status{
+    display: flex;
+    background-color: white;
+    color: black;
+    width: 60%;
+    padding: 25px;
+    margin-top: 70px;
+    border-radius: 10px;
+}
+
+.header .headercontent .status div{
+    width: 25%;
+    border-right: solid 1px black;
+}
+
+.header .headercontent .status div:nth-child(4){
+    border: none;
+}
+
+.header .headercontent .status h1{
+    font-size: 32px;
+    margin: 0 auto;
+    font-weight: 600;
+}
+
+.header .headercontent .status h1 span{
+    color: #2DA884;
+}
+
+.header .headercontent .status div p{
+    font-size: 11px;
+    width: 100%;
+    margin-top: 5px;
+}
+
+/* =================================================================================== */
+
+.about-us{
+    padding: 60px;
+}
+.about-us .text h1{
+    font-size: 55px;
+    font-weight: 600;
+    width: 55%;
+}
+
+.about-us .text h1 span{
+    color: #2DA884;
+}
+
+.about-us .text p{
+    width: 53%;
+    font-size: 14px;
+    margin: 30px 0 70px 0;
+}
+
+.about-us .goals{
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-us .goals .container{
+    width: 40%;
+
+}
+
+.about-us .goals .container span{
+    color: #2DA884;
+}
+
+.about-us .goals .container h1{
+    font-weight: 600;
+    margin: 15px 0;
+}
+
+.about-us .goals .container i{
+    font-size: 40px;
+    color: #2DA884;
+}
+
+.about-us .goals .container p{
+    font-size: 14px;
+}
+
+.about-us .goals .container div{
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.about-us .goals .container .mission{
+    margin-bottom: 50px;
+}
+
+.about-us .goals .img{
+    background-image: url(images/image2.png);
+    width: 53%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 12px;
+    background-position: center;
+}
+
+/* =================================================================================== */
+
+.advantages{
+    display: flex;
+    justify-content: space-between;
+    padding: 60px;
+}
+
+.advantages .img{
+    background-image: url(images/image3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 40%;
+    border-radius: 15px;
+}
+
+.advantages .text{
+    width: 53%;
+}
+
+.advantages .text h1{
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.advantages .text h1 span{
+    color: #2DA884;
+}
+
+.advantages .text p{
+    margin: 25px 0;
+    font-size: 14px;
+    width: 80%;
+}
+
+.advantages .text div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.advantages .text div i{
+    font-size: 30px;
+    color: #2DA884;
+}
+
+.advantages .text div span{
+    margin-left: 15px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* =================================================================================== */
+
+.services{
+    padding: 60px;
+}
+
+.services .text h1{
+    font-size: 50px;
+    font-weight: 600;
+    width: 40%;
+}
+
+.services .text h1 span{
+    color: #2DA884;
+}
+
+.services .text p{
+    font-size: 14px;
+    width: 55%;
+    margin: 25px 0 60px 0;
+}
+
+.services .cards{
+    display: flex;
+    justify-content:  space-between;
+    flex-wrap: wrap;
+}
+
+.services .cards div{
+    width: 30%;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+
+.services .cards div h1{
+    font-weight: 600;
+    margin: 15px 0;
+}
+
+.services .cards div h1 span{
+    color: #2DA884;
+}
+
+.services .cards div p {
+    font-size: 14px;
+}
+
+.services .cards div i{
+    font-size: 30px;
+    color: #2DA884;
+}
+
+.services .cards div:first-of-type {
+    background-color: #2DA884;
+    color: white;
+}
+
+.services .cards div:first-of-type i{
+    color: white;
+}
+
+/* =================================================================================== */
+
+.pricing{
+    padding: 60px;
+}
+
+.pricing .text h1{
+    font-size: 50px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.pricing .text h1 span{
+    color: #2DA884;
+}
+
+.pricing .text p{
+    font-size: 14px;
+    width: 55%;
+    margin: 30px auto 60px;
+    text-align: center;
+}
+
+.pricing .options{
+    display: flex;
+    justify-content: space-between;
+}
+
+.pricing .options .plan{
+    width: 30%;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    height: fit-content;
+    border-radius: 15px;
+}
+
+.pricing .options .plan .head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #2DA884;
+    color: white;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.pricing .options .plan .head h3{
+    font-weight: 500;  
+    font-size: 16px;
+}
+
+.pricing .options .plan .head span{
+    background-color: white;
+    color: #2DA884;
+    padding: 15px;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 25px;
+    width: 40%;
+    text-align: center;
+}
+
+.pricing .options .plan .price{
+    padding: 20px;
+    text-align: center;
+    color: #2DA884;
+    border-bottom: solid 1px #2DA884;
+}
+
+.pricing .options .plan .price h1{
+    font-size: 50px;
+    font-weight: 600;
+    margin: 20px 0;
+}
+
+.pricing .options .plan .price span{
+    font-size: 14px;
+}
+
+.pricing .options .plan .benefits{
+    padding: 20px;
+    color: #2DA884;
+    font-size: 14px;
+}
+
+.pricing .options .plan .benefits div{
+    display: flex;
+    padding: 15px 10px;
+    border-bottom: solid 1px #2DA884;
+    align-items: center;
+}
+
+.pricing .options .plan .benefits div i{
+    margin-right: 10px;
+}
+
+.pricing .options .plan .btn{
+    text-align: center;
+}
+
+.pricing .options .plan .btn button{
+    padding: 20px;
+    width: 88%;
+    border: none;
+    border-radius: 30px;
+    background-color: #2DA884;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+.pricing .options .plan:last-of-type .head{
+    background-color: white;
+    color: #2DA884;
+}
+
+.pricing .options .plan:last-of-type .head span{
+    background-color: #2DA884;
+    color: white;
+}
+
+.pricing .options .plan:last-of-type .benefits,.pricing .options .plan:last-of-type .price,.pricing .options .plan:last-of-type .btn{
+    background-color: #2DA884;
+    color: white;
+}
+
+.pricing .options .plan:last-of-type .price{
+    border-bottom-color: white;
+}
+
+.pricing .options .plan:last-of-type .benefits div{
+    border-bottom-color: white;
+}
+
+.pricing .options .plan:last-of-type .btn{
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.pricing .options .plan:last-of-type .btn button{
+    background-color: white;
+    color: #2DA884;
+}
+
+/* =================================================================================== */
+
+.gallary{
+    padding: 60px;
+}
+
+.gallary .text{
+    text-align: center;
+}
+
+.gallary .text h1{
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.gallary .text h1 span{
+    color: #2DA884;
+}
+
+.gallary .text p{
+    width: 55%;
+    font-size: 14px;
+    margin: 30px auto 60px;
+}
+
+.gallary .imgs{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 650px;
+}
+
+.gallary .imgs div{
+    width: 32%;
+    height: 625px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 15px;
+}
+
+.gallary .imgs div:first-of-type{
+    background-image: url(images/image4.png);
+}
+
+.gallary .imgs .collection{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.gallary .imgs .collection div{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px;
+}
+
+.gallary .imgs .collection .img1{
+    background-image: url(images/image5.png);
+    width: 45%;
+}
+
+.gallary .imgs .collection .img2{
+    background-image: url(images/image6.png);
+    width: 45%;
+}
+
+.gallary .imgs .collection .img3{
+    background-image: url(images/image7.png);
+    width: 100%;
+    margin-top: 25px;
+}
+
+.gallary .imgs div:nth-of-type(3){
+    background-image: url(images/image8.png);
+}
+
+/* =================================================================================== */
+
+.rates{
+    padding: 60px;
+}
+
+.rates .text{
+    text-align: center;
+}
+
+.rates .text h1{
+    font-size: 50px;
+    font-weight: 600;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.rates .text h1 span{
+    color: #2DA884;
+}
+
+.rates .text p{
+    width: 55%;
+    font-size: 14px;
+    margin: 30px auto 60px;
+}
+
+.rates .cards{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    color: #525252;
+}
+
+.rates .cards > div{
+    width: 42%;
+    padding: 25px 48px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    margin-bottom: 30px;
+    border-radius: 15px;
+}
+
+.rates .cards > div > p{
+    font-size: 14px;
+    margin-bottom: 50px;
+}
+
+.rates .cards > div .name{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rates .cards > div .name h3{
+    font-weight: 600;
+    font-size: 25px;
+    color: #232A42;
+}
+
+.rates .cards > div .name p{
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.rates .cards .card1{
+    background-color: #2DA884;
+    color: white;
+}
+
+.rates .cards > div .name .icons{
+    color: #FFBE40;
+}
+
+.rates .cards .card1 .name h3{
+    color: white;
+}
+
+.rates .cards > div:nth-of-type(1) span{
+    background-image: url(images/image9.png);
+}
+
+.rates .cards > div:nth-of-type(2) span{
+    background-image: url(images/image10.png);
+}
+
+.rates .cards > div:nth-of-type(3) span{
+    background-image: url(images/image11.png);
+}
+
+.rates .cards > div:nth-of-type(4) span{
+    background-image: url(images/image12.png);
+    background-position: top !important;
+}
+
+.rates .cards > div span{
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    position: absolute;
+    margin-left: -94px;
+    margin-top: 35px;
+    border-radius: 50%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* =================================================================================== */
+
+.faq{
+    padding: 60px;
+}
+
+.faq .text{
+    text-align: center;
+}
+
+.faq .text h1{
+    font-size: 50px;
+    font-weight: 600;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.faq .text h1 span{
+    color: #2DA884;
+}
+
+.faq .text p{
+    width: 55%;
+    font-size: 14px;
+    margin: 30px auto 60px;
+}
+
+.faq .questions > div{
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    padding: 35px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.faq .questions > div h3{
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.faq .questions > div p{
+    font-size: 14px;
+    margin-top: 25px;
+    width: 90%;
+}
+
+.faq .questions > div i{
+    font-size: 25px;
+}
+
+.faq .questions .opened{
+    background-color: #2DA884;
+    color: white;
+}
+
+/* =================================================================================== */
+
+.blog{
+    padding: 60px;
+}
+
+.blog .text{
+    text-align: center;
+}
+
+.blog .text h1{
+    font-size: 50px;
+    font-weight: 600;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.blog .text h1 span{
+    color: #2DA884;
+}
+
+.blog .text p{
+    width: 55%;
+    font-size: 14px;
+    margin: 30px auto 60px;
+}
+
+.blog .articles{
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog .articles .card{
+    width: 31.5%;
+}
+
+.blog .articles .card:nth-of-type(1) .img{
+    background-image: url(images/image13.png);
+}
+
+.blog .articles .card:nth-of-type(2) .img{
+    background-image: url(images/image14.png);
+}
+
+.blog .articles .card:nth-of-type(3) .img{
+    background-image: url(images/image15.png);
+}
+
+.blog .articles .img{
+    width: 100%;
+    height: 259px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.blog .articles .card > span{
+    display: inline-block;
+    font-size: 14px;
+    color: #2DA884;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.blog .articles .card h3{
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.blog .articles .card .icons{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.blog .articles .card .icons div{
+    width: 31%;
+    display: flex;
+    align-items: center;
+}
+
+.blog .articles .card .icons i{
+    color: #2DA884;
+}
+
+.blog .articles .card p{
+    font-size: 14px;
+    color: #525252;
+}
+
+.blog .articles .card .btn{
+    width: 100%;
+    text-align: center;
+}
+
+.blog .articles .card button{
+    padding: 20px;
+    width: 100%;
+    border-radius: 30px;
+    margin-top: 35px;
+    border: none;
+    font-size: 16px;
+    color: white;
+    background-color: #2DA884;
+    font-weight: 500;
+}
+
+/* =================================================================================== */
+
+.contact{
+    padding: 60px;
+}
+
+.contact .text{
+    text-align: center;
+}
+
+.contact .text h1{
+    font-size: 50px;
+    font-weight: 600;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.contact .text h1 span{
+    color: #2DA884;
+}
+
+.contact .text p{
+    width: 55%;
+    font-size: 14px;
+    margin: 30px auto 60px;
+}
+
+.contact .form{
+    display: flex;
+    justify-content: center;
+    border-radius: 18px;
+    overflow: hidden;
+}
+
+.contact .form .img{
+    background-image: url(images/image16.png);
+    width: 40%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contact .form .inputs{
+    width: 60%;
+    background-color: #2DA884;
+    padding: 40px;
+    color: white;
+}
+
+.contact .form .inputs span{
+    display: block;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.contact .form .inputs input{
+    padding: 20px;
+    width: 100%;
+    background-color: #2DA884;
+    color: white;
+    border: solid 1px white;
+    border-radius: 30px;
+    margin-bottom: 30px;
+}
+
+.contact .form .inputs input::placeholder{
+    color: white;
+}
+
+.contact .form .inputs input:focus{
+    outline: none;
+}
+
+.contact .form .inputs .btn{
+    width: 100%;
+    text-align: center;
+}
+
+.contact .form .inputs .btn button{
+    width: 100%;
+    background-color: white;
+    color: #2DA884;
+    border: none;
+    padding: 20px;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 15px 0 30px 0;
+}
+
+/* =================================================================================== */
+
+.footer{
+    padding: 60px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #2DA884;
+    align-items: center;
+    color: white;
+}
+
+.footer > div{
+    width: 20%;
+}
+
+.footer div:nth-of-type(1){
+    width: 30%;
+}
+
+.footer div:nth-of-type(2){
+    padding-left: 40px;
+}
+
+.footer div:nth-of-type(4){
+    padding-left: 40px;
+}
+
+.footer > div h1{
+    font-weight: 600;
+    font-size: 28px;
+    margin-bottom: 40px;
+}
+
+.footer > div h3{
+    font-weight: 600;
+    font-size: 15px;
+    margin-bottom: 40px;
+}
+
+.footer > div p, .footer > div span, .footer > div h5{
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.footer > div h5{
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.footer > div h5 span{
+    margin-bottom: 2px;
+}
+
+.footer > div .icons{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.footer > div .icons i{
+    font-size: 30px;
+}
+
+.footer > div h5:nth-of-type(2) i{
+    margin-bottom: 12px;
+}
